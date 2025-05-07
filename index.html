@@ -1,182 +1,68 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SuleTech Tanzania | Home</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Site Under Maintenance | SuleTech Tanzania</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #003366, #006699);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .icon {
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+
+    .footer {
+      font-size: 14px;
+      margin-top: 30px;
+      opacity: 0.7;
+    }
+  </style>
 </head>
-<style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f5f8ff;
-  color: #222;
-}
-header.glass {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #003366;
-}
-.navbar a {
-  color: #003366;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
-.hero {
-  position: relative;
-  width: 100%;
-  height: 60vh;
-}
-.hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 20px 30px;
-  border-radius: 12px;
-  text-align: center;
-}
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 40px 20px;
-  gap: 30px;
-}
-.card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-  width: 300px;
-  text-align: center;
-  overflow: hidden;
-}
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.card h3 {
-  color: #003366;
-  margin: 10px 0 5px;
-}
-.card p {
-  padding: 0 15px 20px;
-  color: #444;
-}
-#contact {
-  text-align: center;
-  padding: 40px 20px;
-  background: rgba(255,255,255,0.6);
-  margin: 40px auto;
-}
-.about-content {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  line-height: 1.7;
-}
-.about-content ul {
-  margin: 15px 0;
-  padding-left: 20px;
-}
-.about-img {
-  width: 100%;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-footer {
-  background: #003366;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 14px;
-}
-@media screen and (max-width: 768px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-text {
-    font-size: 14px;
-  }
-  .navbar a {
-    display: inline-block;
-    margin: 10px 8px;
-  }
-}
-</style>
 <body>
-  <header class="glass">
-    <div class="logo">SuleTech Tanzania</div>
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <img src="1.jpg" alt="Hero Image">
-    <div class="hero-text">
-      <h1>Welcome to SuleTech Tanzania</h1>
-      <p>Smart Digital Solutions for Education, Institutions and Entrepreneurs</p>
+  <div class="container">
+    <div class="icon">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
     </div>
-  </section>
-
-  <section id="services">
-    <h2>Our Key Services</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="2.jpg" alt="Typing">
-        <h3>Document Typing</h3>
-        <p>Professionally typed schemes, notes, exams, reports & more</p>
-      </div>
-      <div class="card">
-        <img src="3.jpg" alt="Design">
-        <h3>Graphic Design</h3>
-        <p>Logos, certificates, banners, posters, social media posts</p>
-      </div>
-      <div class="card">
-        <img src="4.jpg" alt="Web">
-        <h3>Smart Web Tools</h3>
-        <p>Simple websites, automation tools and digital educational kits</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="glass">
-    <h2>Contact Us</h2>
-    <p>📧 Email: <a href="mailto:whatsdoctanzania@gmail.com">whatsdoctanzania@gmail.com</a></p>
-    <p>💬 WhatsApp: <a href="https://wa.me/255621257283" target="_blank">+255 621 257 283</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 SuleTech Tanzania. All rights reserved.</p>
-  </footer>
+    <h1>We're Under Maintenance</h1>
+    <p>Our website is currently being improved.<br>Please check back again shortly.</p>
+    <p>If you need urgent assistance, contact us:</p>
+    <p>📧 <a href="mailto:whatsdoctanzania@gmail.com" style="color: #ffcc00;">whatsdoctanzania@gmail.com</a><br>
+       💬 <a href="https://wa.me/255621257283" style="color: #ffcc00;">WhatsApp: +255 621 257 283</a>
+    </p>
+    <div class="footer">&copy; 2025 SuleTech Tanzania. All rights reserved.</div>
+  </div>
 </body>
 </html>
